@@ -1,0 +1,57 @@
+
+.calculator{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    background-color: rgb(32, 28, 28);
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.formularDisplay{
+    min-height: 20px;
+    font-size: 20px;
+    color: rgb(100, 149, 237);
+    text-align: right;
+    vertical-align: top;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+.outputDisplay{
+    font-size: 30px;
+    color: inherit;
+    text-align: right;
+    line-height: 35px;
+}
+button{
+    position: relative;
+    height: 65px;
+    width: 80px;
+    color: inherit;
+    outline: 1px solid black;
+    border: none;
+    background: rgb(59, 58, 58);
+    font-size: 20px;
+    cursor: default;
+}
+button:hover{
+    color: black;
+    outline: 0.05rem solid grey;
+    z-index: 3;
+}
+.bigBut{
+    width: 160px;
+}
+.equalBut{
+    background: rgb(250, 128, 114);
+    position: absolute;
+    height: 130px;
+    bottom: 25px;
+}
+.clearBut{
+    background: rgb(135, 206, 235) ;
+}
+.operator{
+    background: rgb(112, 128, 144);
+}
